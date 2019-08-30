@@ -17,6 +17,10 @@
 ## zadanie 8
 
 ## zadanie 9
+*`sudo usermod -a -G nowa_grupa grzegorzg`
+*`sudo usermod -a -G nowa_grupa nowy_uzytkownik`
+*`cut -d: -f1 /etc/group | sort | grep "nowa_grupa"`
+*`getent group nowa_grupa`
 
 ## zadanie 10
 * `echo "jakis tekst" > nowy_plik`
