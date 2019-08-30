@@ -11,16 +11,24 @@
 ## zadanie 5
 
 ## zadanie 6
+* `find /home/`
+* `find /home/ -size +1M`
+* `find ~ | grep "hello" | sort`
 
 ## zadanie 7
+* `find ~ -mtime 0 > all_today`
+* `find /etc | grep "net" > find_etc`
 
 ## zadanie 8
+* `passwd nowy_uzytkownik`
+* `sudo login`
+* `whoami`
 
 ## zadanie 9
-*`sudo usermod -a -G nowa_grupa grzegorzg`
-*`sudo usermod -a -G nowa_grupa nowy_uzytkownik`
-*`cut -d: -f1 /etc/group | sort | grep "nowa_grupa"`
-*`getent group nowa_grupa`
+* `sudo usermod -a -G nowa_grupa grzegorzg`
+* `sudo usermod -a -G nowa_grupa nowy_uzytkownik`
+* `cut -d: -f1 /etc/group | sort | grep "nowa_grupa"`
+* `getent group nowa_grupa`
 
 ## zadanie 10
 * `echo "jakis tekst" > nowy_plik`
